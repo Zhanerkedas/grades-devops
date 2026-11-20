@@ -11,7 +11,7 @@ permissions:
   contents: read
 
 env:
-  IMAGE_NAME: ghcr.io/${{ github.repository_owner }}/grades-app
+  IMAGE_NAME: ghcr.io/zhanerkedas/grades-app  # GHCR требует имя образа в нижнем регистре
 
 jobs:
   # ---------------- 1. Проверка кода ----------------
